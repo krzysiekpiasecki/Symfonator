@@ -1,0 +1,23 @@
+{
+  "assets/app.css": "/assets/app.css",
+  "assets/app.js": "/assets/app.js",
+  "assets/fonts/fontawesome-webfont.eot": "/assets/fonts/fontawesome-webfont.674f50d2.eot",
+  "assets/fonts/fontawesome-webfont.ttf": "/assets/fonts/fontawesome-webfont.b06871f2.ttf",
+  "assets/fonts/fontawesome-webfont.woff": "/assets/fonts/fontawesome-webfont.fee66e71.woff",
+  "assets/fonts/fontawesome-webfont.woff2": "/assets/fonts/fontawesome-webfont.af7ae505.woff2",
+  "assets/fonts/themify.eot": "/assets/fonts/themify.2c454669.eot",
+  "assets/fonts/themify.ttf": "/assets/fonts/themify.e23a7dca.ttf",
+  "assets/fonts/themify.woff": "/assets/fonts/themify.a1ecc3b8.woff",
+  "assets/images/404.png": "/assets/images/404.f97802b0.png",
+  "assets/images/500.png": "/assets/images/500.6e177923.png",
+  "assets/images/bg.jpg": "/assets/images/bg.fd1a1dd6.jpg",
+  "assets/images/fontawesome-webfont.svg": "/assets/images/fontawesome-webfont.912ec66d.svg",
+  "assets/images/logo.png": "/assets/images/logo.fa83079a.png",
+  "assets/images/logo.svg": "/assets/images/logo.346d8427.svg",
+  "assets/images/sort_asc.png": "/assets/images/sort_asc.9326ad44.png",
+  "assets/images/sort_asc_disabled.png": "/assets/images/sort_asc_disabled.d7dc10c7.png",
+  "assets/images/sort_both.png": "/assets/images/sort_both.9a648608.png",
+  "assets/images/sort_desc.png": "/assets/images/sort_desc.1fc418e3.png",
+  "assets/images/sort_desc_disabled.png": "/assets/images/sort_desc_disabled.bda51e15.png",
+  "assets/images/themify.svg": "/assets/images/themify.9c8e96ec.svg"
+}
