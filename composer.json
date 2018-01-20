@@ -1,6 +1,22 @@
 {
+    "name": "krzysiekpiasecki/symfonator",
+    "authors": [{
+        "name": "Krzysiek Piasecki",
+        "email": "krzysiekpiasecki@gmail.com",
+        "role": "Developer"
+    }],
+    "description": "Welcome to Symfonator - Responsive Bootstrap 4 Admin Template based on the Foundation of Symfony and Adminator!",
+    "license": "MIT",
+    "keywords": [
+        "symfony",
+        "template",
+        "bootstrap",
+        "responsive",
+        "admin",
+        "user",
+        "ui"
+    ],
     "type": "project",
-    "license": "proprietary",
     "require": {
         "php": "^7.1.3",
         "ext-iconv": "*",
