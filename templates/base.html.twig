@@ -511,6 +511,12 @@
     </div>
 
     <script type="text/javascript">
+        (function() {
+            if('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('assets/service-worker.js');
+            }
+        })();
+
         window.addEventListener('load', () => {
             const loader = document.getElementById('loader');
             setTimeout(() => {

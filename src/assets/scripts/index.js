@@ -1,9 +1,6 @@
 import "../../../node_modules/popper.js/dist/popper";
 import "../../../node_modules/popper.js/dist/popper-utils.min";
 
-window.Popper = require('popper.js').default;
-
-
 import "../../../node_modules/bootstrap/dist/js/bootstrap.js";
 
 import './masonry/index.js';

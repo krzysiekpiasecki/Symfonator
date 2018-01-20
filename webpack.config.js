@@ -1,4 +1,5 @@
 var Encore = require('@symfony/webpack-encore');
+var SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
 
 Encore
     .addEntry('app', './src/app.js') // will create public/build/app.js and public/build/app.css
@@ -12,7 +13,17 @@ Encore
         jQuery: 'jquery',
         'window.jQuery': 'jquery',
         Popper: ['popper.js', 'default']
-    })
+    }).addPlugin(
+        new SWPrecacheWebpackPlugin(
+        {
+            cacheId: 'Symfonator',
+            dontCacheBustUrlsMatching: /\.\w{8}\./,
+            filename: 'service-worker.js',
+            minify: true,
+            navigateFallback: 'index.html',
+            staticFileGlobsIgnorePatterns: [/\.map$/, /asset-manifest\.json$/],
+        })
+    )
     .enableBuildNotifications() // show OS notifications when builds finish/fail
     // create hashed filenames (e.g. app.abc123.css)
     // .enableVersioning()
