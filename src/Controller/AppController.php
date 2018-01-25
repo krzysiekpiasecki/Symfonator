@@ -18,7 +18,7 @@ class AppController extends Controller
     }
 
     /**
-     * @Route("/{pageName}", name="app_index")
+     * @Route("page/{pageName}", name="app_index")
      * @param string $pageName Page name
      * @return Response
      */

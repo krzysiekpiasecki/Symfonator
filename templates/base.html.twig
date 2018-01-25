@@ -87,7 +87,7 @@
                 <div class="sidebar-logo">
                     <div class="peers ai-c fxw-nw">
                         <div class="peer peer-greed">
-                            <a class='sidebar-link td-n' href="/" class="td-n">
+                            <a class="sidebar-link td-n" href="/">
                                 <div class="peers ai-c fxw-nw">
                                     <div class="peer">
                                         <div class="logo">
@@ -113,7 +113,7 @@
                 <!-- ### $Sidebar Menu ### -->
                 <ul class="sidebar-menu scrollable pos-r">
                     <li class="nav-item mT-30 active">
-                        <a class='sidebar-link' href="/" default>
+                        <a class="sidebar-link" href="/">
                 <span class="icon-holder">
                   <i class="c-blue-500 ti-home"></i>
                 </span>
@@ -121,7 +121,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class='sidebar-link' href=email>
+                        <a class="sidebar-link" href="{{ path('app_index', {'pageName': 'email'})}}">
                 <span class="icon-holder">
                   <i class="c-brown-500 ti-email"></i>
                 </span>
@@ -129,7 +129,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class='sidebar-link' href="compose">
+                        <a class="sidebar-link" href="{{ path('app_index', {'pageName': 'compose'})}}">
                 <span class="icon-holder">
                   <i class="c-blue-500 ti-share"></i>
                 </span>
@@ -137,7 +137,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class='sidebar-link' href="calendar">
+                        <a class="sidebar-link" href="{{ path('app_index', {'pageName': 'calendar'})}}">
                 <span class="icon-holder">
                   <i class="c-deep-orange-500 ti-calendar"></i>
                 </span>
@@ -145,7 +145,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class='sidebar-link' href="chat">
+                        <a class="sidebar-link" href="{{ path('app_index', {'pageName': 'chat'})}}">
                 <span class="icon-holder">
                   <i class="c-deep-purple-500 ti-comment-alt"></i>
                 </span>
@@ -153,7 +153,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class='sidebar-link' href="charts">
+                        <a class="sidebar-link" href="{{ path('app_index', {'pageName': 'charts'})}}">
                 <span class="icon-holder">
                   <i class="c-indigo-500 ti-bar-chart"></i>
                 </span>
@@ -161,7 +161,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class='sidebar-link' href="forms">
+                        <a class="sidebar-link" href="{{ path('app_index', {'pageName': 'forms'})}}">
                 <span class="icon-holder">
                   <i class="c-light-blue-500 ti-pencil"></i>
                 </span>
@@ -188,10 +188,10 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a class='sidebar-link' href="basic-table">Basic Table</a>
+                                <a class="sidebar-link" href="{{ path('app_index', {'pageName': 'basic-table'})}}">Basic Table</a>
                             </li>
                             <li>
-                                <a class='sidebar-link' href="datatable">Data Table</a>
+                                <a class="sidebar-link" href="{{ path('app_index', {'pageName': 'datatable'})}}">Data Table</a>
                             </li>
                         </ul>
                     </li>
@@ -226,16 +226,16 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a class='sidebar-link' href="404">404</a>
+                                <a class="sidebar-link" href="{{ path('app_index', {'pageName': '404'})}}">404</a>
                             </li>
                             <li>
-                                <a class='sidebar-link' href="500">500</a>
+                                <a class="sidebar-link" href="{{ path('app_index', {'pageName': '500'})}}">500</a>
                             </li>
                             <li>
-                                <a class='sidebar-link' href="signin">Sign In</a>
+                                <a class="sidebar-link" href="{{ path('app_index', {'pageName': 'signin'})}}">Sign In</a>
                             </li>
                             <li>
-                                <a class='sidebar-link' href="signup">Sign Up</a>
+                                <a class="sidebar-link" href="{{ path('app_index', {'pageName': 'signup'})}}">Sign Up</a>
                             </li>
                         </ul>
                     </li>
@@ -490,7 +490,7 @@
                                 </li>
                                 <li role="separator" class="divider"></li>
                                 <li>
-                                    <a href="" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700">
+                                    <a href="{{ path('fos_user_security_logout') }}" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700">
                                         <i class="ti-power-off mR-10"></i>
                                         <span>Logout</span>
                                     </a>
@@ -510,7 +510,7 @@
 
     </div>
 
-    <script type="text/javascript">
+    <script>
         (function() {
             if('serviceWorker' in navigator) {
                 navigator.serviceWorker.register('assets/service-worker.js');
