@@ -6,10 +6,10 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
 
-class AppController extends Controller
+class AdminController extends Controller
 {
     /**
-     * @Route("/", name="app_default")
+     * @Route("/admin", name="app_default")
      * @return Response
      */
     public function default()
@@ -18,7 +18,7 @@ class AppController extends Controller
     }
 
     /**
-     * @Route("page/{pageName}", name="app_index")
+     * @Route("admin/{pageName}", name="app_index")
      * @param string $pageName Page name
      * @return Response
      */
