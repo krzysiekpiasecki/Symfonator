@@ -2,9 +2,7 @@ import './scss/index.scss';
 
 import './assets/scripts/index.js';
 
-import './assets/static/images/logo.png';
 import './assets/static/images/sf.png';
-import './assets/static/images/logo.svg';
 import './assets/static/images/bg.jpg';
 import './assets/static/images/404.png';
 import './assets/static/images/500.png';
