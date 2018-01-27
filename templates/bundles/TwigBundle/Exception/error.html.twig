@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>404</title>
+    <title>{{ status_code }} - {{ status_text }}</title>
     <link rel="stylesheet" href="{{ asset('assets/app.css') }}" />
   </head>
   <body class="app">
@@ -14,8 +14,8 @@
 
       <div class='d-f jc-c fxd-c'>
         <h1 class='mB-30 fw-900 lh-1 c-red-500' style="font-size: 60px;">Oops</h1>
-        <h3 class='mB-10 fsz-lg c-grey-900 tt-c'>Uknown Page Error</h3>
-        <p class='mB-30 fsz-def c-grey-700'>The page you are looking for does not exist or has been moved.</p>
+        <h3 class='mB-10 fsz-lg c-grey-900 tt-c'>Page Error</h3>
+        <p class='mB-30 fsz-def c-grey-700'>We track these errors automatically, but if the problem persists feel free to contact us.</p>
         <div>
           <a href="{{  app.request.headers.get('referer') }}" type='primary' class='btn btn-primary'>Go to Home</a>
         </div>
