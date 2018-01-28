@@ -9,7 +9,7 @@ use Symfony\Component\HttpFoundation\Response;
 class AdminController extends Controller
 {
     /**
-     * @Route("/admin", name="app_default")
+     * @Route("/admin", name="admin_page")
      * @return Response
      */
     public function default()
@@ -18,7 +18,7 @@ class AdminController extends Controller
     }
 
     /**
-     * @Route("admin/{pageName}", name="app_index")
+     * @Route("admin/{pageName}", name="admin_default")
      * @param string $pageName Page name
      * @return Response
      */

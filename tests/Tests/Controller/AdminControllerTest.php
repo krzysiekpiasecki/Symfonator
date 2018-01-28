@@ -1,13 +1,15 @@
 <?php
 namespace App;
 
-use App\Entity\User;
 use Symfony\Bundle\FrameworkBundle\Client;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
-use Symfony\Component\BrowserKit\Cookie;
-use Symfony\Component\Security\Core\Authentication\Token\UsernamePasswordToken;
 
 
+/**
+ * Class AdminControllerTest
+ * @package App
+ * @coverClass \App\Controller\AdminController
+ */
 class AdminControllerTest extends WebTestCase
 {
     /**
