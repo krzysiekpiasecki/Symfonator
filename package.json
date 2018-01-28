@@ -1,8 +1,8 @@
 {
-  "name": "Adminsf",
+  "name": "Symfonator",
   "version": "1.0.0",
   "private": true,
-  "description": "HTML Admin Template",
+  "description": "Welcome to Symfonator - Responsive Bootstrap 4 Admin Template based on the Foundation of Symfony and Adminator!",
   "scripts": {
     "start": "webpack-dev-server",
     "dev": "webpack-dashboard -t 'Project' -- webpack-dev-server",
@@ -29,16 +29,16 @@
     "case-sensitive-paths-webpack-plugin": "^2.1.1",
     "copy-webpack-plugin": "^4.2.0",
     "cross-env": "^5.1.0",
-    "css-loader": "^0.28.7",
-    "eslint": "^4.9.0",
+    "css-loader": "0.28.9",
+    "eslint": "4.16.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "2.7.0",
     "extract-text-webpack-plugin": "^3.0.1",
     "file-loader": "1.1.6",
     "html-webpack-plugin": "^2.30.1",
-    "imagemin-webpack-plugin": "^1.5.2",
+    "imagemin-webpack-plugin": "1.6.1",
     "node-sass": "^4.5.3",
-    "postcss-cssnext": "^3.0.2",
+    "postcss-cssnext": "3.1.0",
     "postcss-loader": "^2.0.8",
     "sass-loader": "^6.0.6",
     "shx": "^0.2.2",
@@ -47,8 +47,8 @@
     "stylelint-config-standard": "^17.0.0",
     "sw-precache-webpack-plugin": "0.11.4",
     "webpack": "^3.8.1",
-    "webpack-dashboard": "^1.0.0",
-    "webpack-dev-server": "^2.9.3",
+    "webpack-dashboard": "1.1.1",
+    "webpack-dev-server": "2.11.1",
     "webpack-notifier": "1.5.0"
   },
   "dependencies": {
@@ -59,7 +59,7 @@
     "datatables": "^1.10.13",
     "easy-pie-chart": "^2.1.7",
     "fullcalendar": "^3.6.2",
-    "jquery": "^3.2.1",
+    "jquery": "3.3.1",
     "jquery-sparkline": "^2.4.0",
     "jvectormap": "^2.0.4",
     "load-google-maps-api": "^1.0.0",
@@ -67,7 +67,7 @@
     "masonry-layout": "^4.2.0",
     "moment": "^2.19.1",
     "perfect-scrollbar": "^1.1.0",
-    "popper.js": "^1.12.6",
+    "popper.js": "1.13.0",
     "skycons": "^1.0.0"
   }
 }
