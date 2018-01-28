@@ -2,6 +2,9 @@
 Welcome to Symfonator - Responsive Bootstrap 4 admin application based on the foundation of Symfony and Adminator HTML5 template!
 Preview of this application is available here [https://symfonator.herokuapp.com/admin](https://symfonator.herokuapp.com/admin).
 
+## Application
+
+### Screenshots
 <br/>
 
 <a href="https://symfonator.herokuapp.com/admin">
@@ -21,7 +24,7 @@ Preview of this application is available here [https://symfonator.herokuapp.com/
 <br/>
 
 
-# Developers
+## Developers
 
 ```
 $ composer create-project krzysiekpiasecki/symfonator --stability=dev
