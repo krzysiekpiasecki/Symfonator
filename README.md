@@ -13,16 +13,6 @@ Preview of this application is available here [https://symfonator.herokuapp.com/
 
 <br/>
 
-<br/>
-<br/>
-
-<a href="https://symfonator.herokuapp.com/admin">
-<img src="https://raw.githubusercontent.com/krzysiekpiasecki/Symfonator/master/src/assets/static/images/preview1.png" alt="Symfonator preview">
-</a>
-
-<br/>
-<br/>
-
 
 ## Developers
 
