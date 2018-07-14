@@ -26,7 +26,7 @@ $ cd symfonator
 ```
 
 __Start MYSQL, create database and configure application database URL. Example shell commands are:__
-```
+```shell
 $ mysql // start MYSQL
 $ mysqladmin -u USER -p create DB_NAME // Create database
 $ nano .env // Edit enviroments variables
