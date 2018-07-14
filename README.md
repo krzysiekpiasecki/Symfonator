@@ -13,22 +13,28 @@ Preview of this application is available here [https://symfonator.herokuapp.com/
 
 <br/>
 
-<br/>
-<br/>
-
-<a href="https://symfonator.herokuapp.com/admin">
-<img src="https://raw.githubusercontent.com/krzysiekpiasecki/Symfonator/master/src/assets/static/images/preview1.png" alt="Symfonator preview">
-</a>
-
-<br/>
-<br/>
-
 
 ## Developers
 
-```
+### Instalation
+
+__Install application using composer__
+
+```shell
 $ composer create-project krzysiekpiasecki/symfonator --stability=dev
 $ cd symfonator
+```
+
+__Start MYSQL, create database and configure application database URL. Example shell commands are:__
+```shell
+$ mysql // start MYSQL
+$ mysqladmin -u USER -p create DB_NAME // Create database
+$ nano .env // Edit enviroments variables
+# Change this line: DATABASE_URL=mysql://APP_USER:PASSWORD@127.0.0.1:3306/DB_NAME
+```
+
+__Create application user and run HTTP server__
+```shell
 $ bin/console fos:user:create
 $ bin/console server:run
 ```
