@@ -36,6 +36,6 @@ $ nano .env # Edit enviroments variables
 __Create application user and run HTTP server__
 ```shell
 $ bin/console doctrine:schema:create # Create database schema from entity model
-$ bin/console fos:user:create # Create first application user
+$ bin/console fos:user:create --super-admin # Create first application user with admin privileges
 $ bin/console server:run # Run http server
 ```
