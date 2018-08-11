@@ -28,13 +28,14 @@ $ cd symfonator
 __Start MYSQL, create database and configure application database URL. Example shell commands are:__
 ```shell
 $ mysql # start MYSQL
-$ mysqladmin -u USER -p create DB_NAME # Create database
+$ mysqladmin -u MYSQL_USER_NAME -p create symfonator # Create database called symfonator
 $ nano .env # Edit enviroments variables
-# Change this line: DATABASE_URL=mysql://APP_USER:PASSWORD@127.0.0.1:3306/DB_NAME
+# Change this line: DATABASE_URL=mysql://MYSQL_USER_NAME:PASSWORD@127.0.0.1:3306/symfonator
 ```
 
 __Create application user and run HTTP server__
 ```shell
-$ bin/console fos:user:create
-$ bin/console server:run
+$ bin/console doctrine:schema:create # Create database schema from entity model
+$ bin/console fos:user:create # Create first application user
+$ bin/console server:run # Run http server
 ```
